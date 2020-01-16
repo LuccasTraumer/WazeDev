@@ -1,7 +1,7 @@
 // Externas
 const express = require('express');
 const mongoose = require('mongoose');
-
+const cors = require('cors');
 // Internas
 const routes = require('./routes');
 
@@ -12,6 +12,7 @@ mongoose.connect('mongodb+srv://traumer:luccas@cluster0-x0aop.mongodb.net/test?r
     useNewUrlParser: true,
     useUnifiedTopology: true,
 });
+app.use(cors());
 app.use(express.json());
 app.use(routes);
 
