@@ -17,3 +17,7 @@ Screen Map                 |  Screen Map with Devs
 Screen Dev with box Info   |  Screen Profile Github
 :-------------------------:|:-------------------------:
 ![Screen Dev with box Info](https://github.com/LuccasTraumer/WazeDev/blob/master/psReadme/Mobile/Screen_Map_Dev_Info.jpeg) | ![Screen Profile Github](https://github.com/LuccasTraumer/WazeDev/blob/master/psReadme/Mobile/Screen_Profile.jpeg)
+
+How to Use App             |  Use App
+:-------------------------:|:-------------------------:
+![Screen Dev with box Info](https://github.com/LuccasTraumer/WazeDev/blob/mobile/psReadme/Mobile/MobileApp.gif) | ![Screen Profile Github](https://github.com/LuccasTraumer/WazeDev/blob/mobile/psReadme/Mobile/SearchTechs.gif)
