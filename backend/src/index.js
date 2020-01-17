@@ -2,11 +2,17 @@
 const express = require('express');
 const mongoose = require('mongoose');
 const cors = require('cors');
+const http = require('http');
 // Internas
 const routes = require('./routes');
+const { setupWebSocket } = require('./webSocket');
 
 // Utilizadas
 const app = express();
+const server = http.Server(app);
+
+setupWebSocket(server);
+
 mongoose.set('useCreateIndex', true);
 mongoose.connect('mongodb+srv://traumer:luccas@cluster0-x0aop.mongodb.net/test?retryWrites=true&w=majority',{
     useNewUrlParser: true,
@@ -17,7 +23,7 @@ app.use(express.json());
 app.use(routes);
 
 
-app.listen(3333);
+server.listen(3333);
 
 /*
  METODOS HTTP: GET, POST, PUT e DELETE
