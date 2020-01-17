@@ -1,4 +1,5 @@
 # WazeDev
+## WARNING: Absence make a Two more Screen in Mobile, a Create/Login on mobile and try make a chat for devs communication
 #### WazeDev is application where Developers can find another developers by language, who is search.
 ## BACKEND:
 ##### Backend is a API create in NodeJS, who provides for all application the routes, is responsibility the API make connection with database, the database is make in mongoDB a database NOSQL
