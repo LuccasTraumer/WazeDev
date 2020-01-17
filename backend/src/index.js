@@ -8,7 +8,7 @@ const routes = require('./routes');
 // Utilizadas
 const app = express();
 mongoose.set('useCreateIndex', true);
-mongoose.connect('mongodb+srv://traumer:luccas@cluster0-x0aop.mongodb.net/test?retryWrites=true&w=majority',{
+mongoose.connect('******',{
     useNewUrlParser: true,
     useUnifiedTopology: true,
 });
