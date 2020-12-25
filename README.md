@@ -1,3 +1,4 @@
+![GitHub](https://img.shields.io/github/license/luccastraumer/wazedev)
 # WazeDev
 ## WARNING: Absence make a Two more Screen in Mobile, a Create/Login on mobile and try make a chat for devs communication
 #### WazeDev is application where Developers can find another developers by language, who is search.
